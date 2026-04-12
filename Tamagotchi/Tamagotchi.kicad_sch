@@ -491,6 +491,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Seeed_Studio_XIAO_Series:XIAO-ESP32-C6-DIP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1376,6 +1516,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 104.14 68.58)
@@ -1387,7 +1642,19 @@
 		(at 175.26 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0381c28b-147f-4f9f-b625-9062b6779fb5")
+		(uuid "2340980b-1a59-4c38-8467-5d64f357ad7f")
+	)
+	(junction
+		(at 121.92 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36c6b500-77a5-48b9-9f1a-bcb1d45eb509")
+	)
+	(junction
+		(at 113.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93befe61-46d6-425e-b605-2b2169e26233")
 	)
 	(junction
 		(at 104.14 77.47)
@@ -1396,10 +1663,58 @@
 		(uuid "c6f712ae-708d-43ed-ac38-94878514f35f")
 	)
 	(junction
-		(at 121.92 102.87)
+		(at 113.03 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e424e3a9-f4e1-40f5-b052-ca025101cdb2")
+		(uuid "dc73f3f2-e60b-4d91-8caa-e1815742a61e")
+	)
+	(junction
+		(at 173.99 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc02736e-a0da-4f84-aa37-b8f192770623")
+	)
+	(no_connect
+		(at 167.64 99.06)
+		(uuid "6bb9fbeb-97cb-485f-ba2c-610bff1f5f9d")
+	)
+	(no_connect
+		(at 167.64 95.25)
+		(uuid "84273a36-23b6-45b7-af24-c3e4b8cfed7a")
+	)
+	(no_connect
+		(at 167.64 91.44)
+		(uuid "b4f00867-a778-44e0-9639-308b3db82500")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 137.16 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047df68d-ab89-42c8-a39d-4227f74ced9a")
+	)
+	(wire
+		(pts
+			(xy 114.3 91.44) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f7d83a-e399-48f0-9f77-ff58c62699bf")
+	)
+	(wire
+		(pts
+			(xy 121.92 102.87) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1391bdf9-807d-4002-a87e-5c8fcc893beb")
 	)
 	(wire
 		(pts
@@ -1410,6 +1725,16 @@
 			(type default)
 		)
 		(uuid "15c8747b-2bfe-4117-84a4-b83f8349b7f0")
+	)
+	(wire
+		(pts
+			(xy 182.88 102.87) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4e3a82-9c63-4d08-92e4-8fcc67f7d460")
 	)
 	(wire
 		(pts
@@ -1443,6 +1768,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 97.79) (xy 119.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3683e5d6-8e81-4c2f-8ada-4761f4775e4b")
+	)
+	(wire
+		(pts
+			(xy 121.92 118.11) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a502ce0-b39d-4ddf-9d56-db2e1b603ed0")
+	)
+	(wire
+		(pts
 			(xy 114.3 58.42) (xy 125.73 58.42)
 		)
 		(stroke
@@ -1453,13 +1798,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 102.87) (xy 121.92 91.44)
+			(xy 173.99 78.74) (xy 173.99 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f7f08df-8959-472f-892e-679ea483db20")
+		(uuid "433f5fc7-99ee-49ff-ad14-171eba9eaffc")
+	)
+	(wire
+		(pts
+			(xy 129.54 113.03) (xy 137.16 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e61c67-5a6d-4de7-8b97-6ae809f57ead")
 	)
 	(wire
 		(pts
@@ -1473,6 +1828,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a922a77-f306-453a-a67f-1778804c833f")
+	)
+	(wire
+		(pts
 			(xy 113.03 100.33) (xy 115.57 100.33)
 		)
 		(stroke
@@ -1483,13 +1848,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 109.22) (xy 121.92 102.87)
+			(xy 167.64 80.01) (xy 173.99 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "640ad378-3df6-46a9-b4a0-51747b9919a1")
+		(uuid "62d2edd0-1a35-47dc-bcf6-43f0b1c101fc")
 	)
 	(wire
 		(pts
@@ -1523,6 +1888,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 80.01) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84416a0d-878f-4edb-8c87-188350af9290")
+	)
+	(wire
+		(pts
 			(xy 113.03 92.71) (xy 120.65 92.71)
 		)
 		(stroke
@@ -1543,23 +1918,33 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 80.01) (xy 171.45 80.01)
+			(xy 129.54 102.87) (xy 129.54 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b538ac3d-c5ac-4ec5-9536-c16dab23919b")
+		(uuid "b6f679c1-3f15-41db-a734-fdfcfa91e500")
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 121.92 109.22)
+			(xy 171.45 109.22) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfb26c85-edd0-4729-a055-ebf6dd5b27a4")
+		(uuid "bfe36209-d35b-471a-81e9-79ec61b962bb")
+	)
+	(wire
+		(pts
+			(xy 121.92 114.3) (xy 121.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f6e7a0-a2e2-409e-af12-74ed97510d59")
 	)
 	(wire
 		(pts
@@ -1573,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 109.22) (xy 175.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2fa0c3-30a8-4545-903d-5d8743065a19")
+	)
+	(wire
+		(pts
 			(xy 120.65 99.06) (xy 129.54 99.06)
 		)
 		(stroke
@@ -1583,16 +1978,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 175.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ca1dac-8ba3-47a8-8c3b-f32cdaa42ec0")
-	)
-	(wire
-		(pts
 			(xy 167.64 83.82) (xy 173.99 83.82)
 		)
 		(stroke
@@ -1600,6 +1985,16 @@
 			(type default)
 		)
 		(uuid "de09641a-4a85-4d9a-bb55-c009b4a1df56")
+	)
+	(wire
+		(pts
+			(xy 171.45 109.22) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d7a113-824c-40b4-8a52-a6276268da2d")
 	)
 	(wire
 		(pts
@@ -1623,6 +2018,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 97.79) (xy 119.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7c78f8-e861-4844-881e-f10bf23555e7")
+	)
+	(wire
+		(pts
 			(xy 121.92 77.47) (xy 121.92 87.63)
 		)
 		(stroke
@@ -1640,6 +2045,86 @@
 			(type default)
 		)
 		(uuid "fc5c06dd-ca16-4bf4-8b32-00b8fe98c6ab")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03e614d5-f1c8-471f-a63a-3aeafcb06b4a")
+		(property "Reference" "R3"
+			(at 133.35 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 133.35 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "906f1842-ba02-4e7a-abbe-3325ef85136b")
+		)
+		(pin "2"
+			(uuid "0361da3d-cc8b-445a-804a-adea64593b43")
+		)
+		(instances
+			(project "Tamagotchi"
+				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1721,7 +2206,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 125.73 91.44 0)
+		(at 118.11 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1731,7 +2216,7 @@
 		(dnp no)
 		(uuid "2ef8b3f4-7c47-4485-8c52-5f50dc619687")
 		(property "Reference" "D1"
-			(at 124.714 86.614 0)
+			(at 117.094 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1741,7 +2226,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 124.714 89.154 0)
+			(at 117.094 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1751,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
-			(at 125.73 91.44 0)
+			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1762,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 91.44 0)
+			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1773,7 +2258,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 125.73 91.44 0)
+			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +2269,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 125.73 91.44 0)
+			(at 118.11 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1811,7 +2296,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 125.73 102.87 0)
+		(at 125.73 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1821,7 +2306,7 @@
 		(dnp no)
 		(uuid "3323ad85-79fa-4283-b709-abd0041a2c22")
 		(property "Reference" "D3"
-			(at 124.714 98.044 0)
+			(at 124.714 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1831,7 +2316,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 124.714 100.584 0)
+			(at 124.714 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1841,7 +2326,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
-			(at 125.73 102.87 0)
+			(at 125.73 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +2337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 102.87 0)
+			(at 125.73 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +2348,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 125.73 102.87 0)
+			(at 125.73 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1874,7 +2359,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 125.73 102.87 0)
+			(at 125.73 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1900,8 +2385,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 171.45 80.01 0)
+		(lib_id "Device:R")
+		(at 125.73 91.44 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1910,10 +2395,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42201e95-eb3b-4df5-a034-1f03ee550d38")
-		(property "Reference" "#PWR04"
-			(at 171.45 83.82 0)
-			(hide yes)
+		(uuid "3550f2b5-0e85-40e6-9b0d-39d7759e4552")
+		(property "Reference" "R1"
+			(at 125.73 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1922,8 +2406,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 171.45 74.93 0)
+		(property "Value" "R"
+			(at 125.73 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1933,7 +2417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 80.01 0)
+			(at 125.73 93.218 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1944,7 +2428,165 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 80.01 0)
+			(at 125.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f523bbe-4b46-4980-a174-68d390277750")
+		)
+		(pin "2"
+			(uuid "da8c48d7-2c2d-45b6-ba1e-ffeff1adbd94")
+		)
+		(instances
+			(project "Tamagotchi"
+				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 113.03 100.33 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c69d4d8-e498-479e-8487-8641941bb6c1")
+		(property "Reference" "#FLG02"
+			(at 113.03 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.696 105.156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 113.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ae20cd0-953e-44b9-a7f9-69df6e5be112")
+		)
+		(instances
+			(project "Tamagotchi"
+				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 173.99 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42201e95-eb3b-4df5-a034-1f03ee550d38")
+		(property "Reference" "#PWR04"
+			(at 173.99 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 173.99 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1955,7 +2597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 171.45 80.01 0)
+			(at 173.99 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1972,6 +2614,84 @@
 			(project "Tamagotchi"
 				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 113.03 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "577224f2-6823-4f96-bc54-e2964e2aa9bb")
+		(property "Reference" "#FLG01"
+			(at 113.03 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 113.03 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 113.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd333855-6a70-4e14-b012-1eae41287b21")
+		)
+		(instances
+			(project "Tamagotchi"
+				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2351,6 +3071,85 @@
 			(project "Tamagotchi"
 				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 173.99 78.74 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7163cba9-5115-437e-a237-0d9078abedbb")
+		(property "Reference" "#FLG03"
+			(at 175.895 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 177.8 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "732f338e-059a-4fa0-ae70-af450adbb780")
+		)
+		(instances
+			(project "Tamagotchi"
+				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -2788,6 +3587,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 171.45 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb81a821-04a3-4816-a4d5-84d7cc69229e")
+		(property "Reference" "R2"
+			(at 171.45 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 171.45 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fc2bf4c-fd55-4f18-b870-fb74c16c6c64")
+		)
+		(pin "2"
+			(uuid "69936c2e-821d-4d86-a6c6-77eafaef1ebc")
+		)
+		(instances
+			(project "Tamagotchi"
+				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 118.11 87.63 0)
 		(unit 1)
@@ -2867,7 +3746,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 171.45 102.87 0)
+		(at 179.07 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2878,7 +3757,7 @@
 		(dnp no)
 		(uuid "f1313c84-04d1-4a06-aad9-7e89cf6655df")
 		(property "Reference" "D2"
-			(at 172.466 98.044 0)
+			(at 180.086 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2888,7 +3767,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 172.466 100.584 0)
+			(at 180.086 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2898,7 +3777,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O1.27mm_Z4.9mm"
-			(at 171.45 102.87 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +3788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 102.87 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,7 +3799,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 171.45 102.87 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2931,7 +3810,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 102.87 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
