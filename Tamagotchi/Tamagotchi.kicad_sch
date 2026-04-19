@@ -2399,7 +2399,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 133.35 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2817,7 +2817,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 125.73 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4417,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1K"
 			(at 171.45 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
