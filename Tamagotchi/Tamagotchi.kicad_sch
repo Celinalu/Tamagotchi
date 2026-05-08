@@ -5,187 +5,6 @@
 	(uuid "dd5d29a8-0ca1-4c75-a105-470d6b907a46")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DM-OLED096-636:DM-OLED096-636"
 			(pin_names
 				(offset 1.016)
@@ -464,6 +283,230 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2353,18 +2396,6 @@
 		(uuid "8eabd7f0-c81a-4f48-99c0-b3dfec81f2f2")
 	)
 	(junction
-		(at 157.48 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97abd4f4-35a9-42d9-9963-c01b206908a8")
-	)
-	(junction
-		(at 157.48 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a429a137-5791-4a16-a5d5-8f951159a678")
-	)
-	(junction
 		(at 143.51 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2472,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 143.51) (xy 157.48 151.13)
+			(xy 88.9 138.43) (xy 88.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2673,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 151.13) (xy 130.81 151.13)
+			(xy 88.9 146.05) (xy 62.23 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2662,6 +2693,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 146.05) (xy 157.48 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455fe369-63ef-438f-8e83-e5eaf9a94ec2")
+	)
+	(wire
+		(pts
 			(xy 127 67.31) (xy 139.7 67.31)
 		)
 		(stroke
@@ -2672,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 135.89) (xy 157.48 135.89)
+			(xy 62.23 130.81) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2712,6 +2753,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 138.43) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c685a3-48d0-4fa0-b904-86238db52cea")
+	)
+	(wire
+		(pts
 			(xy 166.37 53.34) (xy 166.37 71.12)
 		)
 		(stroke
@@ -2739,6 +2790,16 @@
 			(type default)
 		)
 		(uuid "5d67dd22-90f0-44d0-b3fb-6b5db6ca5d07")
+	)
+	(wire
+		(pts
+			(xy 157.48 138.43) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604bfe6d-31a1-4196-ab93-9bbe7452dc6b")
 	)
 	(wire
 		(pts
@@ -2812,7 +2873,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 135.89)
+			(xy 62.23 134.62) (xy 62.23 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2882,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 135.89) (xy 157.48 140.97)
+			(xy 88.9 130.81) (xy 88.9 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2902,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 140.97) (xy 157.48 140.97)
+			(xy 85.09 135.89) (xy 88.9 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2912,7 +2973,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 147.32) (xy 130.81 151.13)
+			(xy 62.23 142.24) (xy 62.23 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2922,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 143.51) (xy 157.48 143.51)
+			(xy 85.09 138.43) (xy 88.9 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3079,6 +3140,16 @@
 			(type default)
 		)
 		(uuid "c09cd71a-b9e7-4496-8916-57568c1d15d7")
+	)
+	(wire
+		(pts
+			(xy 157.48 143.51) (xy 157.48 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6804319-0b72-49ee-b807-9484a27b08f2")
 	)
 	(wire
 		(pts
@@ -3272,7 +3343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:KSA_Tactile_SPST"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 114.3 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3432,7 +3503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:KSA_Tactile_SPST"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 114.3 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3475,86 +3546,6 @@
 			(project "Tamagotchi"
 				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 148.59 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e09b44d-245f-4da4-b037-e756d6e1b2e3")
-		(property "Reference" "J1"
-			(at 149.225 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery connector"
-			(at 149.225 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical"
-			(at 148.59 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 148.59 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5fb4886-78de-4f4f-9aa1-009734ab9623")
-		)
-		(pin "1"
-			(uuid "59c18e10-1bf1-4c1f-a6e6-aa7fd9a2127b")
-		)
-		(instances
-			(project "Tamagotchi"
-				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3812,7 +3803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:KSA_Tactile_SPST"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 			(at 114.3 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -3940,7 +3931,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 130.81 143.51 0)
+		(at 62.23 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3951,7 +3942,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f86fc42-a229-4fa9-b8a1-9d360348739b")
 		(property "Reference" "C1"
-			(at 134.62 141.3509 0)
+			(at 66.04 136.2709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3961,8 +3952,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 134.62 143.8909 0)
+		(property "Value" "100uF"
+			(at 66.04 138.8109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3973,7 +3964,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 131.7752 147.32 0)
+			(at 63.1952 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +3975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 143.51 0)
+			(at 62.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3995,7 +3986,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 130.81 143.51 0)
+			(at 62.23 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5841,6 +5832,121 @@
 			(project "Tamagotchi"
 				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 139.7 143.51 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4f9f7b9-2de6-45bd-9f70-6192df8026d4")
+		(property "Reference" "BT1"
+			(at 135.89 140.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 135.89 142.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+			(at 139.7 141.986 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 141.986 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 139.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e58fa0d4-e056-4a15-aa64-9007db128750")
+		)
+		(pin "2"
+			(uuid "6abc75ce-93d0-4e60-8be4-d263f2f5c89c")
+		)
+		(instances
+			(project "Tamagotchi"
+				(path "/dd5d29a8-0ca1-4c75-a105-470d6b907a46"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
