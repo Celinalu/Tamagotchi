@@ -24,4 +24,5 @@ Sad face and red LED = stats under 30
 I wanted to challenge myself to do something out of my comfort zone. This project required many different parts combined, so I thought it was a very good learning opportunity to use many different things combined (3d modeling, hardware, and software). I think the project is also very fun, and you can really personalize the end product to whatever you like. This project had many complex parts, but they are small enough that it won't take a massive amount of time. I also wanted to learn how to incorporate an OLED screen in my build, so this was also my other reason for creating this.  
 
 # Zine Page
-[Tamagotchi_ZIne.pdf](https://github.com/user-attachments/files/27939778/Tamagotchi_ZIne.pdf)
+<img width="531" height="759" alt="Screenshot 2026-05-17 212448" src="https://github.com/user-attachments/assets/174649db-cace-4265-a4f6-db8661747d1f" />
+
