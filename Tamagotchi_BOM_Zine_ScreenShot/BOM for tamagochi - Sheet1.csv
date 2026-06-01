@@ -9,4 +9,7 @@ D2,LED green,WP4060GD,,,,,0.45,1,0.45,https://www.digikey.ca/en/products/detail/
 D3,LED yellow,WP4060YD,,,,,0.5,1,0.5,https://www.digikey.ca/en/products/detail/kingbright/WP4060YD/2075396
 C1,Capacitor,CL21A105KBCLNNC,,,,,0.22,1,0.22,https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL21A105KBCLNNC/3888054?gclsrc=aw.ds&gad_source=1&gad_campaignid=17336435733&gbraid=0AAAAADrbLlhD1ifvgtPEXC3Y3Rhu8QSHf&gclid=CjwKCAjwzLHPBhBTEiwABaLsSkUJoxoe283HSAJx-GYqh1e93D5yeYz3VTB19PBu3D2CFnScmu2VIxoCF3UQAvD_BwE
 PCB,PCB including shipping,,,,,,4.78,1,4.78,https://cart.jlcpcb.com/quote?stencilLayer=2&stencilWidth=100&stencilLength=100&stencilCounts=5&plateType=1&spm=Jlcpcb.Homepage.1010
+Battery,Battery,Lithium-Ion Polymer (LiPo) Battery (3.7V 400mAh),,,,,6.99,1,6.99,https://www.canadarobotix.com/collections/rechargeable-battery/products/940
+J1,Battery connector,61300211121,,,,,0.19,1,0.19,https://www.digikey.ca/en/products/detail/w-rth-elektronik/61300211121/4846823?gclsrc=aw.ds&gad_source=1&gad_campaignid=23152963569&gbraid=0AAAAADrbLlh8wgbAw-GnNi9bmbpo9wjk0&gclid=Cj0KCQjwzqXQBhD2ARIsAKrIeU-32OBIJJu7fzqzueZQmI2IGxNYWLkXd7q6px3EKQ3myLTZ7ErSESMaApbmEALw_wcB
+J2,Programming,61300411121,,,,,0.27,1,0.27,https://www.digikey.ca/en/products/detail/w-rth-elektronik/61300411121/4846827?gclsrc=aw.ds&gad_source=1&gad_campaignid=23152963569&gbraid=0AAAAADrbLlh8wgbAw-GnNi9bmbpo9wjk0&gclid=Cj0KCQjwzqXQBhD2ARIsAKrIeU8JHIWipxsGsGBxjq6t-sbcXhB8sSesj9_wzaBFqoquNF4VNJDTrW0aAobkEALw_wcB
 ,shipping for the other parts,,,,,,around 8,,,
