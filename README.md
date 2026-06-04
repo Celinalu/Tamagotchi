@@ -1,7 +1,9 @@
 # Tamagotchi
 This Tamagotchi is a digital pet that you can raise. It runs off an Xiao Esp32C3 board and has an OLED board that displays the pet's condition at all times, to remind people of the mood of their pet. I added LED lights that correspond to different moods (sad, happy, and neutral).
-<img width="485" height="503" alt="Tamagotchi_CaseScreenshot" src="https://github.com/user-attachments/assets/914d0a94-84fd-4877-854e-6d373dcdc462" />
-<img width="740" height="851" alt="Tamagotchi PCB screenshot" src="https://github.com/user-attachments/assets/158f2724-aad0-4d2c-a46c-5e5a52f70520" />
+<img width="617" height="703" alt="Tamagotchi_Case" src="https://github.com/user-attachments/assets/a0871b3d-904d-4834-aa44-984e387656e0" />
+<img width="812" height="886" alt="Tamagotchi3D_PCB" src="https://github.com/user-attachments/assets/12ba33d2-ca0f-487a-bc7f-e4102a65c775" />
+
+
 
 
 # How it's made:
